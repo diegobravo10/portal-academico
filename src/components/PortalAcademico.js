@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const API_URL = "http://104.197.98.193:3000";
+const API_URL = "http://104.197.98.193";
 
 export default function PortalAcademico() {
   const [view, setView] = useState("login"); // login | register | dashboard
